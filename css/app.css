@@ -1,4 +1,8 @@
 
+li {
+	list-style-type: none;
+}
+
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
