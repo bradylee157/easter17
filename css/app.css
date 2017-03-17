@@ -6,15 +6,22 @@ main {
 	background-repeat: no-repeat;
 }
 
-h1 {
+h1,h2,h3,h4,h5 {
 	text-align: center;
 }
 
-
-
-
 li {
 	list-style-type: none;
+}
+
+.top-bar,.top-bar ul,.top-bar li {
+	background-color: white;
+}
+
+.main-background {
+	background: rgba(255, 255, 255, 0.8);
+	/*color: white;*/
+	/*padding: 7em 0;*/
 }
 
 
