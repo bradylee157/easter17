@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i');
 
+body {
+	font-family: 'Lato', sans-serif;
+}
 
 main {
 	background: url("../images/dome.jpg") no-repeat center center scroll;
 	background-size: cover;
 	background-repeat: no-repeat;
+	text-align: center;
 }
 
 h1,h2,h3,h4,h5 {
