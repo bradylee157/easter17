@@ -42,6 +42,12 @@ li {
 }
 
 
+/* COLORS
+	light green: rgb(167, 209, 199); #a7d1c7;
+	purple: rgb(133, 34, 193); #8522c1;
+	*/
+
+
 /* Small only */
 @media screen and (max-width: 39.9375em) {
 
