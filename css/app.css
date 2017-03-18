@@ -52,7 +52,11 @@ li {
 .main-background {
 	background: rgba(255, 255, 255, 0.8);
 	/*color: white;*/
-	/*padding: 7em 0;*/
+	padding: 5rem 0;
+}
+
+.hero-text {
+	padding-bottom: 2rem; 
 }
 
 .button.hollow {
