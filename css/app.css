@@ -78,6 +78,10 @@ footer h3 {
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
+	h1 {
+		font-size: 2rem;
+	}
+
 	.main-background {
 		padding: 3rem 0;
 	}
