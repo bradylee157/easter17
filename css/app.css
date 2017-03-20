@@ -15,7 +15,6 @@ h1,h2,h3,h4,h5 {
 	font-family: futura-pt, "Helvetica Neue", Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: 300;
-	text-align: center;
 }
 
 h2 {
@@ -55,12 +54,6 @@ footer h3 {
 
 .main-background {
 	background: rgba(255, 255, 255, 0.8);
-	/*color: white;*/
-	padding: 5rem 0;
-}
-
-.hero-text {
-	padding-bottom: 2rem; 
 }
 
 .hero-sub-text ul {
@@ -112,8 +105,36 @@ footer h3 {
     	font-size: 2rem;
 	}
 
+	footer {
+		padding: 5rem 0;
+	}
+
+	.main-background {
+		padding: 5rem 0;
+	}
+
+	.hero-text {
+		padding-bottom: 2rem; 
+	}
+
 	.hero-text p {
 		font-size: 1.25rem;
+	}
+
+	#thursday {
+		padding: 5rem 0;
+	}
+
+	#friday {
+		padding: 5rem 0;
+	}
+
+	#saturday {
+		padding: 5rem 0;
+	}
+
+	#sunday {
+		padding: 5rem 0;
 	}
 }
 
