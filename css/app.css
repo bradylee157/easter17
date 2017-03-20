@@ -54,13 +54,27 @@ footer h3 {
 }
 
 .main-background {
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.8);
 	/*color: white;*/
 	padding: 5rem 0;
 }
 
 .hero-text {
 	padding-bottom: 2rem; 
+}
+
+.hero-sub-text ul {
+	margin: 0 auto;
+	padding-bottom: 1rem;
+}
+
+.card {
+	background: transparent;
+  	border: none;
+}
+
+.card-divider {
+  	background: transparent;
 }
 
 .button.hollow {
@@ -98,7 +112,7 @@ footer h3 {
     	font-size: 2rem;
 	}
 
-	main p {
+	.hero-text p {
 		font-size: 1.25rem;
 	}
 }
