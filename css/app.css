@@ -89,6 +89,11 @@ footer h3 {
 		font-size: 2rem;
 	}
 
+	.small-caps {
+		font-variant: small-caps;
+		text-align: center;
+	}
+
 	.main-background {
 		padding: 2rem 0;
 	}
