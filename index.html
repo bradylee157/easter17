@@ -15,28 +15,45 @@
   </head>
 
   <body>
-    
 
-    <div class="title-bar" data-responsive-toggle="main-navigation" data-hide-for="medium">
-           <button class="menu-icon" type="button" data-toggle="main-navigation"></button>
-           <div class="title-bar-title">EP Church</div>
-    </div>
-
-    <div data-sticky-container>
-      <div class="sticky top-bar" id="main-navigation" data-sticky data-margin-top="0" style="width:100%;" data-margin-bottom="0">
+    <div class="hide-for-small-only" data-sticky-container>
+      <div class="sticky top-bar" data-sticky data-margin-top="0" style="width:100%;" data-margin-bottom="0">
         <div class="row">
           <div class="medium-4 columns hide-for-small-only">
-            <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
+            <ul class="horizontal menu" data-responsive-menu="drilldown medium-dropdown">
               <li class="menu-text">Evangelical Presbyterian Church</li>
             </ul>
           </div>
           <div class="medium-8 columns">
             <nav data-magellan data-bar-offset="45">
-              <ul class="vertical medium-horizontal menu expanded" data-responsive-menu="drilldown medium-dropdown" data-auto-height="true" data-animate-height="true">
+              <ul class="horizontal menu expanded hide-for-small-only">
                 <li><a href="#thursday">Thursday</a></li>
                 <li><a href="#friday">Friday</a></li>
                 <li><a href="#saturday">Saturday</a></li>
                 <li><a href="#sunday">Sunday</a></li>
+              </ul>
+              <ul class="horizontal menu expanded show-for-small-only small-caps">
+                <li><a href="#thursday">Thu</a></li>
+                <li><a href="#friday">Fri</a></li>
+                <li><a href="#saturday">Sat</a></li>
+                <li><a href="#sunday">Sun</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="show-for-small-only" data-sticky-container>
+      <div class="sticky" data-sticky data-margin-top="0" style="width:100%;" data-margin-bottom="0">
+        <div class="row">
+          <div class="medium-8 columns">
+            <nav data-magellan data-bar-offset="45">
+              <ul class="horizontal menu expanded show-for-small-only small-caps">
+                <li><a href="#thursday">Thu</a></li>
+                <li><a href="#friday">Fri</a></li>
+                <li><a href="#saturday">Sat</a></li>
+                <li><a href="#sunday">Sun</a></li>
               </ul>
             </nav>
           </div>
