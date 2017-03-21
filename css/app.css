@@ -34,6 +34,11 @@ li {
 	list-style-type: none;
 }
 
+table thead, table.unstriped tbody, table.unstriped tbody tr {
+	background: transparent;
+	color: white;
+}
+
 footer h3 {
 	text-align: left;
 }
@@ -89,6 +94,10 @@ footer h3 {
 	text-transform: uppercase;
 }
 
+.saturday-background {
+	background: rgba(133, 34, 193, 0.9);
+}
+
 #thursday {
 	background: #AEE8CA;
 }
@@ -102,7 +111,7 @@ footer h3 {
 	background: url("../images/egg_hunts.jpg") no-repeat center center scroll;
 	background-size: cover;
 	background-repeat: no-repeat;
-	text-align: center;
+	color: white;
 }
 
 
@@ -127,11 +136,15 @@ footer h3 {
 		padding: 2rem 0;
 	}
 
+	.saturday-background {
+		padding: 3rem 0;
+	}
+
 	.hero-text {
 		padding-bottom: .5rem; 
 	}
 
-	#thursday, #friday, #saturday, #sunday {
+	#thursday, #friday, #sunday {
 		padding: 3rem 0;
 	}
 
@@ -151,7 +164,7 @@ footer h3 {
 		padding: 5rem 0;
 	}
 
-	.main-background {
+	.main-background, .saturday-background {
 		padding: 5rem 0;
 	}
 
@@ -163,7 +176,7 @@ footer h3 {
 		font-size: 1.25rem;
 	}
 
-	#thursday, #friday, #saturday, #sunday {
+	#thursday, #friday, #sunday {
 		padding: 5rem 0;
 	}
 }
@@ -175,11 +188,11 @@ footer h3 {
 
 /* Large and up */
 @media screen and (min-width: 64em) {
-	.main-background {
+	.main-background, .saturday-background {
 		padding: 7rem 0;
 	}
 
-	#thursday, #friday, #saturday, #sunday {
+	#thursday, #friday, #sunday {
 		padding: 7rem 0;
 	}
 }
