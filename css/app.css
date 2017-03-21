@@ -153,7 +153,7 @@ footer h3 {
 	}
 
 	#thursday {
-		padding: 8rem 0;
+		padding: 7rem 0;
 	}
 
 	#friday {
@@ -176,6 +176,9 @@ footer h3 {
 
 /* Large and up */
 @media screen and (min-width: 64em) {
+	.main-background {
+		padding: 7rem 0;
+	}
 
 }
 
