@@ -39,12 +39,12 @@ footer h3 {
 }
 
 .top-bar,.top-bar ul,.top-bar li {
-	background-color: white;
+	background: white;
 	text-align: center;
 }
 
 .title-bar {
-	background-color: white;
+	background: white;
 	color: black;
 }
 
@@ -74,13 +74,13 @@ footer h3 {
 .button {
 	border: 1px solid black;
 	color: white;
-	background-color: black;
+	background: black;
 	text-transform: uppercase;
 }
 
 .button:hover {
 	color: black;
-	background-color: transparent;
+	background: transparent;
 }
 
 .button.hollow {
@@ -90,14 +90,26 @@ footer h3 {
 }
 
 #thursday {
-	background-color: #AEE8CA;
-	/*color: white;*/
+	background: #AEE8CA;
+}
+
+#friday {
+	background: #090d00;
+	color: white;
+}
+
+#saturday {
+	background: url("../images/egg_hunts.jpg") no-repeat center center scroll;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
 }
 
 
 /* COLORS
 	light green: rgb(167, 209, 199); #a7d1c7;
-	purple: rgb(133, 34, 193); #8522c1;
+	purple: rgb(133, 34, 193), #8522c1;
+	dark green: rgb(9, 13, 0), #090d00;
 	*/
 
 
@@ -109,7 +121,6 @@ footer h3 {
 
 	.small-caps {
 		font-variant: small-caps;
-		text-align: center;
 	}
 
 	.main-background {
@@ -120,8 +131,8 @@ footer h3 {
 		padding-bottom: .5rem; 
 	}
 
-	#thursday {
-		padding: 4rem 0;
+	#thursday, #friday, #saturday, #sunday {
+		padding: 3rem 0;
 	}
 
 	#thursday h2 {
@@ -152,19 +163,7 @@ footer h3 {
 		font-size: 1.25rem;
 	}
 
-	#thursday {
-		padding: 7rem 0;
-	}
-
-	#friday {
-		padding: 5rem 0;
-	}
-
-	#saturday {
-		padding: 5rem 0;
-	}
-
-	#sunday {
+	#thursday, #friday, #saturday, #sunday {
 		padding: 5rem 0;
 	}
 }
@@ -180,6 +179,9 @@ footer h3 {
 		padding: 7rem 0;
 	}
 
+	#thursday, #friday, #saturday, #sunday {
+		padding: 7rem 0;
+	}
 }
 
 /* Large only */
