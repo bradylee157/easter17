@@ -43,9 +43,15 @@ table thead th, table tbody th, table tbody td {
     padding: 0.25rem 0;
 }
 
-footer h3 {
-	text-align: left;
+footer {
+	background: #404F63;
+	color: white;
+	text-align: center;
 }
+
+/*footer h3 {
+	text-align: left;
+}*/
 
 .top-bar,.top-bar ul,.top-bar li {
 	background: white;
@@ -124,6 +130,7 @@ footer h3 {
 	light green: rgb(167, 209, 199); #a7d1c7;
 	purple: rgb(133, 34, 193), #8522c1;
 	dark green: rgb(9, 13, 0), #090d00;
+	light blue: rgb(171 241 245); #ABF1F5;
 	*/
 
 
@@ -149,7 +156,7 @@ footer h3 {
 		padding-bottom: .5rem; 
 	}
 
-	#thursday, #friday, #sunday {
+	#thursday, #friday, #sunday, footer {
 		padding: 3rem 0;
 	}
 
@@ -181,7 +188,7 @@ footer h3 {
 		font-size: 1.25rem;
 	}
 
-	#thursday, #friday, #sunday {
+	#thursday, #friday, #sunday, footer {
 		padding: 5rem 0;
 	}
 }
@@ -197,7 +204,7 @@ footer h3 {
 		padding: 7rem 0;
 	}
 
-	#thursday, #friday, #sunday {
+	#thursday, #friday, #sunday, footer {
 		padding: 7rem 0;
 	}
 }
