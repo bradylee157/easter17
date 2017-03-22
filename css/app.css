@@ -46,7 +46,40 @@ table thead th, table tbody th, table tbody td {
 footer {
 	background: #404F63;
 	color: white;
-	text-align: center;
+	text-align: left;
+}
+
+footer .button {
+	border: 1px solid white;
+	color: white;
+	background: #4E5F78;
+	text-transform: none;
+}
+
+footer .button:hover {
+	border: 1px solid white;
+	color: white;
+	background: transparent;
+}
+
+footer .button.hollow {
+	border: 1px solid white;
+	color: white;
+	text-transform: none;
+}
+
+footer .button.hollow:hover {
+	border: 1px solid white;
+	/*color: black;*/
+	background: #3B495C;
+}
+
+address {
+	margin-bottom: 1rem;
+	font-size: inherit;
+	line-height: 1.6;
+	text-rendering: optimizeLegibility;
+	font-style: normal;
 }
 
 /*footer h3 {
@@ -131,6 +164,7 @@ footer {
 	purple: rgb(133, 34, 193), #8522c1;
 	dark green: rgb(9, 13, 0), #090d00;
 	light blue: rgb(171 241 245); #ABF1F5;
+	footer dark blue: rgb(64, 79, 99); #404F63;
 	*/
 
 
