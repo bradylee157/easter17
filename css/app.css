@@ -5,7 +5,7 @@ body {
 }
 
 main {
-	background: url("../images/tomb.jpg") no-repeat center center scroll;
+	background: url("../images/tomb.jpg") no-repeat center scroll;
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
@@ -109,10 +109,14 @@ footer h3 {
 }
 
 #saturday {
-	background: url("../images/egg_hunts.jpg") no-repeat center center scroll;
+	background: url("../images/egg_hunts.jpg") no-repeat center scroll;
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: white;
+}
+
+#sunday {
+	background: #ABF1F5;
 }
 
 
