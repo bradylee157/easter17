@@ -39,6 +39,10 @@ table thead, table.unstriped tbody, table.unstriped tbody tr {
 	color: white;
 }
 
+table thead th, table tbody th, table tbody td {
+    padding: 0.25rem 0;
+}
+
 footer h3 {
 	text-align: left;
 }
@@ -67,15 +71,6 @@ footer h3 {
 	padding-bottom: 1rem;
 }
 
-.card {
-	background: transparent;
-  	border: none;
-}
-
-.card-divider {
-  	background: transparent;
-}
-
 .button {
 	border: 1px solid black;
 	color: white;
@@ -92,6 +87,12 @@ footer h3 {
 	border: 1px solid black;
 	color: black;
 	text-transform: uppercase;
+}
+
+.button.hollow:hover {
+	border: 1px solid black;
+	color: white;
+	background: black;
 }
 
 .saturday-background {
