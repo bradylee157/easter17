@@ -49,7 +49,7 @@ footer {
 	text-align: left;
 }
 
-footer .button {
+footer .button, footer .button:after {
 	border: 1px solid white;
 	color: white;
 	background: #4E5F78;
@@ -62,7 +62,7 @@ footer .button:hover {
 	background: transparent;
 }
 
-footer .button.hollow {
+footer .button.hollow, footer .button.hollow:after {
 	border: 1px solid white;
 	color: white;
 	text-transform: none;
@@ -110,7 +110,7 @@ address {
 	padding-bottom: 1rem;
 }
 
-.button {
+.button, .button:after {
 	border: 1px solid black;
 	color: white;
 	background: black;
@@ -122,7 +122,7 @@ address {
 	background: transparent;
 }
 
-.button.hollow {
+.button.hollow:after {
 	border: 1px solid black;
 	color: black;
 	text-transform: uppercase;
