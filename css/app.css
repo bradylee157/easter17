@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i|Assistant:300');
 
 body {
 	font-family: 'Lato', "Helvetica Neue", Helvetica, sans-serif;
@@ -12,7 +12,7 @@ main {
 }
 
 h1,h2,h3,h4,h5 {
-	font-family: futura-pt, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: 'Assistant', "Helvetica Neue", Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: 300;
 }
@@ -70,6 +70,7 @@ footer .button.hollow, footer .button.hollow:focus {
 
 footer .button.hollow:hover {
 	border: 1px solid white;
+	color: white;
 	background: #3B495C;
 }
 
