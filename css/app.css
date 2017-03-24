@@ -21,7 +21,7 @@ h2 {
 	text-transform: uppercase;
 }
 
-nav a, nav a::after {
+nav a, nav a:after {
 	color: #a7d1c7;
 }
 
@@ -49,7 +49,7 @@ footer {
 	text-align: left;
 }
 
-footer .button, footer .button::after {
+footer .button, footer .button:after {
 	border: 1px solid white;
 	color: white;
 	background: #4E5F78;
@@ -62,7 +62,7 @@ footer .button:hover {
 	background: transparent;
 }
 
-footer .button.hollow, footer .button.hollow::after {
+footer .button.hollow, footer .button.hollow:after {
 	border: 1px solid white;
 	color: white;
 	text-transform: none;
@@ -108,12 +108,16 @@ a.about-a:hover {
 	background: rgba(255, 255, 255, 0.9);
 }
 
+.cta-buttons {
+	padding-top: 2rem;
+}
+
 .hero-sub-text ul {
 	margin: 0 auto;
 	padding-bottom: 1rem;
 }
 
-.button, .button::after {
+.button, .button:after {
 	border: 1px solid black;
 	color: white;
 	background: black;
@@ -125,7 +129,7 @@ a.about-a:hover {
 	background: transparent;
 }
 
-.button.hollow::after {
+.button.hollow, .button.hollow:after {
 	border: 1px solid black;
 	color: black;
 	text-transform: uppercase;
