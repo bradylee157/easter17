@@ -70,7 +70,6 @@ footer .button.hollow, footer .button.hollow:after {
 
 footer .button.hollow:hover {
 	border: 1px solid white;
-	/*color: black;*/
 	background: #3B495C;
 }
 
@@ -82,10 +81,6 @@ address {
 	font-style: normal;
 }
 
-/*footer h3 {
-	text-align: left;
-}*/
-
 .top-bar,.top-bar ul,.top-bar li {
 	background: white;
 	text-align: center;
@@ -93,6 +88,10 @@ address {
 
 .title-bar {
 	background: white;
+	color: black;
+}
+
+a.about-a {
 	color: black;
 }
 
