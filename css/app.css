@@ -222,6 +222,10 @@ address {
 		font-size: 1.25rem;
 	}
 
+	.hero-sub-text h2 {
+		padding-bottom: 1.5rem;
+	}
+
 	#thursday, #friday, #sunday, footer {
 		padding: 5rem 0;
 	}
