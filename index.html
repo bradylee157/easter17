@@ -56,8 +56,8 @@
       </div>
     </div>
 
-    <div class="show-for-small-only" data-sticky-container>
-      <div class="sticky top-bar" data-sticky data-margin-top="0" style="width:100%;" data-margin-bottom="0">
+    <div class="show-for-small-only">
+      <div class="top-bar">
         <div class="row">
           <div class="columns">
             <nav data-magellan data-bar-offset="45">
@@ -81,12 +81,14 @@
             <h1 class="show-for-large">One Church. Four opportunities to connect this Easter.</h1>
             <p>Join our community for a week of worship, reflection, and celebration.</p>
             <section class="row cta-buttons">
-              <div class="small-centered medium-8 large-6 columns">
-                <div class="medium-6 large-6 columns">
-                  <a href="#thursday" class="button expanded">View the Events</a>
-                </div>
-                <div class="medium-6 large-6 columns">
-                  <a href="#about" class="button expanded hollow">Learn About Us</a>
+              <div class="small-8 small-centered medium-8 large-6 columns">
+                <div class="row">
+                  <div class="medium-6 large-6 columns" data-magellan>
+                    <a href="#thursday" class="button expanded">View the Events</a>
+                  </div>
+                  <div class="medium-6 large-6 columns" data-magellan>
+                    <a href="#about" class="button expanded hollow">Learn About Us</a>
+                  </div>
                 </div>
               </div>
             </section>
@@ -132,11 +134,11 @@
                 <li>4/15 &ndash; Eggstraordinaire &ndash; 10 a.m. to 2 p.m.</li>
                 <li>4/16 &ndash; Easter Sunday &ndash; 8, 9:15, and 11 a.m.</li>
               </ul>
-              <div class="row">
+              <!-- <div class="row">
                 <div class="small-8 small-centered medium-4 large-3 columns" data-magellan>
                   <a href="#thursday" class="button hollow expanded">Join Us</a>
                 </div>
-              </div> 
+              </div>  -->
             </div>
 
           </section>
@@ -242,7 +244,8 @@
         <div class="large-8 columns">
           <div class="row">
             <div class="medium-4 columns">
-              <h3><small>Location</small></h3>
+              <h3 class="hide-for-small-only"><small>Location</small></h3>
+              <h3 class="show-for-small-only">Locations</h3>
               <address>710 Ridgely Avenue<br/>
               Annapolis, MD 21401</address>
               <div class="medium-6 large-12">
@@ -250,14 +253,17 @@
               </div>
             </div>
             <div class="medium-4 columns">
-              <h3><small>Sunday Morning Services</small></h3>
+              <h3 class="hide-for-small-only"><small>Sunday Morning Services</small></h3>
+              <h3 class="show-for-small-only">Sunday Morning Services</h3>
               <p>8, 9:15, and 11 a.m.</p>
-              <h3><small>Church Office</small></h3>
+              <h3 class="hide-for-small-only"><small>Church Office</small></h3>
+              <h3 class="show-for-small-only">Church Office</h3>
               <p>Phone: 410-266-8090<br/>
               Hours: Mon-Thu 8:30 a.m. to 4:30 p.m.; Fri 8:30 a.m. to 1:30 p.m.</p>
             </div>
             <div class="medium-4 columns">
-              <h3><small>Quick Links</small></h3>
+              <h3 class="hide-for-small-only"><small>Quick Links</small></h3>
+              <h3 class="show-for-small-only">Quick Links</h3>
               <div class="small-10 medium-12">
                 <p><a href="http://epannapolis.org/" class="button hollow expanded" target="_blank">EP Homepage</a></p>
               </div>
