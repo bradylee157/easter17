@@ -179,6 +179,10 @@ a.about-a:hover {
 		font-size: 2rem;
 	}
 
+	.top-bar,.top-bar ul,.top-bar li {
+		text-align: left;
+	}
+
 	.small-caps {
 		font-variant: small-caps;
 	}
