@@ -139,6 +139,17 @@ a.about-a:hover {
 	background: rgba(224, 224, 224, 0.9);
 }
 
+.button.hollow.egg-cta {
+	border: 1px solid white;
+	color: white;
+}
+
+.button.hollow.egg-cta:hover {
+	border: 1px solid white;
+	color: white;
+	background: rgba(133, 34, 193, 1.0);
+}
+
 .saturday-background {
 	background: rgba(133, 34, 193, 0.9);
 }
